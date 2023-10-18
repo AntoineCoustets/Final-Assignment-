@@ -55,14 +55,14 @@ header {
     color: black;
 }
 
-#idOthersMen {
-    background-image: url("/Images/Men/Others/CoverPicOtherMen.jpg");
-    background-size: 150%;
-    background-position-x: -120px;
-    background-position-y: -120px;
+#idOthersWomen {
+    background-image: url("/Images/Women/Others/CoverPicOthersWomen.jpg");
+    background-size: 120%;
+    background-position-x: 0px;
+    background-position-y: -80px;
 }
 
-#typeClothesMen {
+#typeClothesWomen {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -70,22 +70,23 @@ header {
     height: 500px;
 }
 
-#idBottomsMen {
-    background-image: url("/Images/Men/Bottoms/CoverPicBottomMen.jpg");
-    background-size: 110%;
-    background-position-x: -20px;
+#idBottomsWomen {
+    background-image: url("/Images/Women/Bottoms/CoverPicBottomsWomen.jpg");
+    background-size: 120%;
+    background-position-x: -50px;
+    background-position-y: -20px;
 }
 
-#idTopsMen {
-    background-image: url("/Images/Men/Tops/CoverPicTopMen.jpg");
+#idTopsWomen {
+    background-image: url("/Images/Women/Tops/CoverPicTopsWomen.jpg");
     background-position-y: -30px;
     background-position-x: -50px;
     background-size: 120%;
 }
 
-#idTopsMen,
-#idBottomsMen,
-#idOthersMen {
+#idTopsWomen,
+#idBottomsWomen,
+#idOthersWomen {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 50px;
     transition: all, 0.3s ease;
@@ -97,9 +98,9 @@ header {
     display: flex;
 }
 
-#idTopsMen:hover,
-#idBottomsMen:hover,
-#idOthersMen:hover {
+#idTopsWomen:hover,
+#idBottomsWomen:hover,
+#idOthersWomen:hover {
     font-size: 80px;
     filter: blur(2px);
 }
