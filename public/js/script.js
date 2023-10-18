@@ -8,22 +8,22 @@ class Product {
 }
 
 let listProduit = [
-    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"./Sans titre.jpg" },
-    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"./Sans titre.jpg"},
-    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "./Sans titre.jpg"},
-    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "./AF1.jpg"},
-    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"./Sans titre.jpg" },
-    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"./Sans titre.jpg"},
-    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "./Sans titre.jpg"},
-    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "./AF1.jpg"},
-    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"./Sans titre.jpg" },
-    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"./Sans titre.jpg"},
-    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "./Sans titre.jpg"},
-    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "./AF1.jpg"},
-    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"./Sans titre.jpg" },
-    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"./Sans titre.jpg"},
-    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "./Sans titre.jpg"},
-    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "./AF1.jpg"}
+    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"../img/Sans titre.jpg" },
+    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"../img/Sans titre.jpg"},
+    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "../img/Sans titre.jpg"},
+    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "../img/AF1.jpg"},
+    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"../img/Sans titre.jpg" },
+    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"../img/Sans titre.jpg"},
+    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "../img/Sans titre.jpg"},
+    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "../img/AF1.jpg"},
+    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"../img/Sans titre.jpg" },
+    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"../img/Sans titre.jpg"},
+    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "../img/Sans titre.jpg"},
+    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "../img/AF1.jpg"},
+    {"titre" : "tshirt","prix": 12,"description" : "un tshirt", "img" :"../img/Sans titre.jpg" },
+    {"titre" : "pantalon", "prix":30, "description":"un pantalon", "img" :"../img/Sans titre.jpg"},
+    {"titre" : "chapeau", "prix": 21, "description" : "un chapeau", "img": "../img/Sans titre.jpg"},
+    {"titre" : "Air Force 1", "prix" : 90, "description" : "Air Force One", "img" : "../img/AF1.jpg"}
     
 
 ]
