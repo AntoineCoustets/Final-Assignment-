@@ -55,7 +55,11 @@ header {
     color: black;
 }
 
-#idStore {
+#idOthers {
+    background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ngjeza7zfbdnpk6xlo6z/sportswear-club-joggers-DVRltj.png");
+}
+
+#typeClothes {
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -63,21 +67,21 @@ header {
     height: 500px;
 }
 
-#idWomen {
-    background-image: url("/Images/Women/CoverPicWomen.jpg");
-    background-position-y: -40px;
-    background-position-x: -140px;
+#idBottoms {
+    background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/c1fb6a7a-651b-4ae5-acd6-deb96c188ec1/sportswear-fleece-joggers-MVcCC8.png");
 }
 
-#idMen {
-    background-image: url("/Images/Men/CoverPicMen.jpg");
-    background-position-y: -60px;
-    background-position-x: -130px;
+#idTops {
+    background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e4f0d689-d800-4847-a0b4-d024a1912fb4/sportswear-tech-fleece-mens-joggers-vWvCT5.png");
+    background-position-y: -10px;
+    background-position-x: -150px;
 }
 
-#idMen,
-#idWomen {
+#idTops,
+#idBottoms,
+#idOthers {
     background-color: rgba(255, 255, 255, 0.5);
+    background-size: 100%;
     font-size: 50px;
     transition: all, 0.3s ease;
     color: white;
@@ -88,8 +92,9 @@ header {
     display: flex;
 }
 
-#idMen:hover,
-#idWomen:hover {
+#idTops:hover,
+#idBottoms:hover,
+#idOthers:hover {
     font-size: 80px;
     filter: blur(2px);
 }
