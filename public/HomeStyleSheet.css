@@ -153,7 +153,8 @@ button {
     margin: 20px;
 }
 
-#idContact {
+#idContact,
+#idAboutUs {
     display: flex;
     align-items: center;
     flex-direction: row;
