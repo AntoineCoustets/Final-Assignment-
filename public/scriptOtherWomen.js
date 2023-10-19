@@ -14,4 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     bottomsWomen.addEventListener("click", function () {
         window.location.href = "bottomsWomen.html";
     });
+    var button = document.getElementById("idButton");
+
+    button.addEventListener("click", function () {
+        window.location.href = "Contact.html";
+    });
+
 });

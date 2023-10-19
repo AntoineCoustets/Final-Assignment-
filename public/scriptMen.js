@@ -14,4 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     bottomsMen.addEventListener("click", function () {
         window.location.href = "bottomsMen.html";
     });
+    var button = document.getElementById("idButton");
+
+    button.addEventListener("click", function () {
+        window.location.href = "Contact.html";
+    });
 });
