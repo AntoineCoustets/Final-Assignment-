@@ -1,16 +1,34 @@
-// knexfile.js
+// Update with your config settings.
+
+/**
+ * @type { Object.<string, import("knex").Knex.Config> }
+ */
 module.exports = {
+
   development: {
     client: 'mysql',
     connection: {
       host: 'localhost',
-      user: 'votre_nom_utilisateur',
-      password: 'votre_mot_de_passe',
-      database: 'votre_base_de_donnees'
+      user: 'username',
+      password: 'password',
+      database: 'my_db'
+    },
+  },
+
+  staging: {
+    client: 'mysql',
+    connection: {
+      database: 'my_db',
+      user:     'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
     },
     migrations: {
-      directory: './migrations' // Le répertoire où seront stockées les migrations
+      tableName: 'knex_migrations'
     }
   },
-  // ... d'autres configurations pour d'autres environnements (production, test, etc.)
+
 };

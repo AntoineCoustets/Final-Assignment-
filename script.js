@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 class Product {
-    constructor(titre, prix, description, img, gender, type) {
-        this.titre = titre;
-        this.prix = prix;
+    constructor(title, price, description, img, gender, type) {
+        this.title = title;
+        this.price = price;
         this.description = description;
         this.img = img;
         this.gender = gender;
@@ -23,22 +23,22 @@ class Product {
 }
 
 let listProduit = [
-    { "titre": "tshirt", "prix": 12, "description": "un tshirt", "img": "./Sans titre.jpg", "type": "top" },
-    { "titre": "pantalon", "prix": 30, "description": "un pantalon", "img": "./Sans titre.jpg", "type": "bottom" },
-    { "titre": "chapeau", "prix": 21, "description": "un chapeau", "img": "./Sans titre.jpg", "type": "other" },
-    { "titre": "Air Force 1", "prix": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
-    { "titre": "tshirt", "prix": 12, "description": "un tshirt", "img": "./Sans titre.jpg", "type": "top" },
-    { "titre": "pantalon", "prix": 30, "description": "un pantalon", "img": "./Sans titre.jpg", "type": "bottom" },
-    { "titre": "chapeau", "prix": 21, "description": "un chapeau", "img": "./Sans titre.jpg", "type": "other" },
-    { "titre": "Air Force 1", "prix": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
-    { "titre": "tshirt", "prix": 12, "description": "un tshirt", "img": "./Sans titre.jpg", "type": "top" },
-    { "titre": "pantalon", "prix": 30, "description": "un pantalon", "img": "./Sans titre.jpg", "type": "bottom" },
-    { "titre": "chapeau", "prix": 21, "description": "un chapeau", "img": "./Sans titre.jpg", "type": "other" },
-    { "titre": "Air Force 1", "prix": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
-    { "titre": "tshirt", "prix": 12, "description": "un tshirt", "img": "./Sans titre.jpg", "type": "top" },
-    { "titre": "pantalon", "prix": 30, "description": "un pantalon", "img": "./Sans titre.jpg", "type": "bottom" },
-    { "titre": "chapeau", "prix": 21, "description": "un chapeau", "img": "./Sans titre.jpg", "type": "other" },
-    { "titre": "Air Force 1", "prix": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" }
+    { "title": "tshirt", "price": 12, "description": "un tshirt", "img": "./Sans title.jpg", "type": "top" },
+    { "title": "pantalon", "price": 30, "description": "un pantalon", "img": "./Sans title.jpg", "type": "bottom" },
+    { "title": "chapeau", "price": 21, "description": "un chapeau", "img": "./Sans title.jpg", "type": "other" },
+    { "title": "Air Force 1", "price": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
+    { "title": "tshirt", "price": 12, "description": "un tshirt", "img": "./Sans title.jpg", "type": "top" },
+    { "title": "pantalon", "price": 30, "description": "un pantalon", "img": "./Sans title.jpg", "type": "bottom" },
+    { "title": "chapeau", "price": 21, "description": "un chapeau", "img": "./Sans title.jpg", "type": "other" },
+    { "title": "Air Force 1", "price": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
+    { "title": "tshirt", "price": 12, "description": "un tshirt", "img": "./Sans title.jpg", "type": "top" },
+    { "title": "pantalon", "price": 30, "description": "un pantalon", "img": "./Sans title.jpg", "type": "bottom" },
+    { "title": "chapeau", "price": 21, "description": "un chapeau", "img": "./Sans title.jpg", "type": "other" },
+    { "title": "Air Force 1", "price": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" },
+    { "title": "tshirt", "price": 12, "description": "un tshirt", "img": "./Sans title.jpg", "type": "top" },
+    { "title": "pantalon", "price": 30, "description": "un pantalon", "img": "./Sans title.jpg", "type": "bottom" },
+    { "title": "chapeau", "price": 21, "description": "un chapeau", "img": "./Sans title.jpg", "type": "other" },
+    { "title": "Air Force 1", "price": 90, "description": "Air Force One", "img": "./AF1.jpg", "type": "other" }
 
 
 ]
@@ -47,16 +47,16 @@ listProduit.forEach(function (currentProduct) {
     if (currentProduct.type == "top") {
         var Card = document.createElement("div");
         var img = document.createElement("img");
-        var titre = document.createElement("h3");
+        var title = document.createElement("h3");
         var description = document.createElement("p");
-        var prix = document.createElement("p")
+        var price = document.createElement("p")
         img.src = currentProduct.img;
-        titre.textContent = currentProduct.titre;
+        title.textContent = currentProduct.title;
         description.textContent = currentProduct.description;
-        prix.textContent = currentProduct.prix + '€';
-        Card.appendChild(titre);
+        price.textContent = currentProduct.price + '€';
+        Card.appendChild(title);
         Card.appendChild(img);
-        Card.appendChild(prix);
+        Card.appendChild(price);
         Card.appendChild(description);
         var div = document.getElementById('products');
         div.appendChild(Card);
