@@ -58,4 +58,10 @@ document.addEventListener("DOMContentLoaded", function () {
     womensWear.addEventListener("click", function () {
         window.location.href = "womensWear.html";
     });
+
+    var button = document.getElementById("idButton");
+
+    button.addEventListener("click", function () {
+        window.location.href = "Contact.html";
+    });
 });
