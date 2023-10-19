@@ -1,8 +1,16 @@
 // knexfile.js
 module.exports = {
-    /*client: 'sqlite3',
+  development: {
+    client: 'mysql',
     connection: {
-      filename: './dev.sqlite3',
+      host: 'localhost',
+      user: 'votre_nom_utilisateur',
+      password: 'votre_mot_de_passe',
+      database: 'votre_base_de_donnees'
     },
-    useNullAsDefault: true,*/
-  };
+    migrations: {
+      directory: './migrations' // Le répertoire où seront stockées les migrations
+    }
+  },
+  // ... d'autres configurations pour d'autres environnements (production, test, etc.)
+};
