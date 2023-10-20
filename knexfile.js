@@ -1,8 +1,37 @@
-// knexfile.js
+// Update with your config settings.
+
+
+/**
+* @type { Object.<string, import("knex").Knex.Config> }
+*/
+
+
 module.exports = {
-    /*client: 'sqlite3',
+
+  development: {
+    client: 'mysql',
     connection: {
-      filename: './dev.sqlite3',
+      host: 'localhost:3306',
+      user: 'root',
+      password: 'caca',
+      database: 'my_db'
     },
-    useNullAsDefault: true,*/
-  };
+  },
+
+  staging: {
+    client: 'mysql',
+    connection: {
+      database: 'my_db',
+      user: 'username',
+      password: 'password'
+    },
+    pool: {
+      min: 2,
+      max: 10
+    },
+    migrations: {
+      tableName: 'knex_migrations'
+    }
+  },
+
+};
